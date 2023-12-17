@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">fuels</string>
+    <string name="title_activity_sign_up">signUP_Activity</string>
+    <string name="stuck_car">Stuck car</string>
+    <string name="stuck_due_to_fuel">Stuck, Due To Fuel</string>
+
+</resources>

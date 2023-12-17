@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <!--    <ImageView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:layout_marginTop="20dp"-->
+    <!--        android:layout_marginBottom="350dp"-->
+    <!--        android:src="@drawable/petrol_pump" />-->
+
+    <ImageButton
+        android:id="@+id/petrol1"
+        android:layout_width="141dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="50dp"
+        android:src="@drawable/petrol1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/diesel2"
+        android:layout_width="147dp"
+        android:layout_height="167dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="-210dp"
+        android:src="@drawable/diesel1"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/typef"
+        android:hint="Write DO You Want Petrol or Diesel"
+        android:layout_marginStart="20dp"
+        android:paddingTop="30dp"
+        android:paddingBottom="10dp"/>
+
+    <EditText
+        android:id="@+id/amttxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:hint="Enter amount of fuel in liters"
+        android:minHeight="48dp" />
+    <TextView
+        android:id="@+id/tv1"
+        android:layout_width="103dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seekBar1"
+        tools:text="TextView" />
+
+    <Button
+        android:id="@+id/place_order"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="50dp"
+        android:text="Place Order"
+        android:textColor="@color/white" />
+
+</LinearLayout>
